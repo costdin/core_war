@@ -1,4 +1,8 @@
+A (quite hacky) implementation of Core Wars. A bit more than an exercise to play with const generics.
+
 Download SDL2-devel-2.*-VC.zip from http://www.libsdl.org/ (http???)
 
 Copy all *.lib file to {User Home}\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib
 Copy SDL2.dll to the root of the project, next to SDL2.dll
+
+To run execute `cargo run ./bot`, there are a few bots in the `bot` folder.
