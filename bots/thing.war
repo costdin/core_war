@@ -1,0 +1,17 @@
+lozzero equ 66
+mov 6, -1 ; i babbari
+;borgo pio
+spl 6, <-3
+spl 7, <-4
+gaga:add #4, 3
+mov 2, @2
+jmp gaga, 0
+dat <3, <3
+spl 0, <-9
+dat <-10, <1
+spl imp, 0
+mov 0, -20,
+mov 1, -22,
+jmp -23, 0
+imp: spl 0, lozzero
+mov 0, 1

@@ -1,0 +1,12 @@
+jmp 4, #0
+mov 2, -1
+jmp -1, #0
+dat #0, 9
+spl -2, #0
+spl 4, #0
+add #-16, -3
+mov -4, @-4
+jmp -4, #0
+spl 2, #0
+jmp -1, #0
+mov 0 1
